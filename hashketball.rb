@@ -51,7 +51,7 @@ def num_points_scored(player_name)
 end
 
 def shoe_size(player_name)
-  
+  find_player(player_name)[:shoe]
 end
 
 def team_colors(team_name)
