@@ -42,6 +42,8 @@ def find_player(name)
   all_players.find { |player| player[player:player_name == name]
 end
 
+def 
+
 def num_points_scored(player_name)
 
 end
