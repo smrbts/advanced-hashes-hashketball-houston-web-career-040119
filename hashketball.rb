@@ -59,7 +59,7 @@ def team_colors(team_name)
 end
 
 def team_names
-  find_team(team_names)[:]
+  
 end
 
 def player_numbers(team_name)
