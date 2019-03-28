@@ -53,7 +53,7 @@ def all_teams
 end
 
 def find_player(name)
-  all_players.find { |player| player[player:player_name] == name }
+  all_players.find { |player| player[:player_name] == name }
 end
 
 def find_team(name)
