@@ -47,7 +47,7 @@ def find_team(name)
 end
 
 def num_points_scored(player_name)
-
+  find_player
 end
 
 def shoe_size(player_name)
