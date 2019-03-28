@@ -43,7 +43,7 @@ def find_player(name)
 end
 
 def find_team(name)
-  all_teams.find { |team| team[team]
+  all_teams.find { |team| team[]
 end
 
 def num_points_scored(player_name)
