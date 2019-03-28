@@ -55,7 +55,7 @@ def shoe_size(player_name)
 end
 
 def team_colors(team_name)
-  
+  find_team()
 end
 
 def team_names
