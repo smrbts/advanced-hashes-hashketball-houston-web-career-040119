@@ -7,9 +7,10 @@ def good_practices
       binding.pry
       data.each do |data_item|
         binding.pry
-        
-
-
+      end
+    end
+  end
+end
 
 def game_hash
   game_hash = 
