@@ -39,7 +39,7 @@ def all_teams
 end
 
 def find_player(name)
-  all_players.find
+  all_players.find {
 end
 
 def num_points_scored(player_name)
