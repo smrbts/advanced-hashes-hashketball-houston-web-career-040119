@@ -39,11 +39,11 @@ def all_teams
 end
 
 def find_player(name)
-  all_players.find { |player| player[player:player_name == name]
+  all_players.find { |player| player[player:player_name] == name }
 end
 
 def find_team(name)
-  all_teams.find { |team| team[:team_name] == name}
+  all_teams.find { |team| team[:team_name] == name }
 end
 
 def num_points_scored(player_name)
@@ -59,7 +59,7 @@ def team_colors(team_name)
 end
 
 def team_names
-  all_teams.collect { |team| team[:team_name]}
+  all_teams.collect { |team| team[:team_name] }
 end
 
 def player_numbers(team_name)
