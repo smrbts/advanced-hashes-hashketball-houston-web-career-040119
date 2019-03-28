@@ -5,7 +5,7 @@ def good_practices
     binding.pry
     team_data.each do |attribute, data|
       binding.pry
-      data.each do |
+      data.each do |data_item|
 
 
 
