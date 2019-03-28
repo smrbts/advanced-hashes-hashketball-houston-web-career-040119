@@ -63,7 +63,7 @@ def team_names
 end
 
 def player_numbers(team_name)
-  find_team(team_name)
+  find_team(team_name)[:players]
 end
 
 def player_stats(player_name)
