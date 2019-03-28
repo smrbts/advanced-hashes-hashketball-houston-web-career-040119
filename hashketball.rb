@@ -71,7 +71,7 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  all_players.sort_by { |player| player[:shoe] } [-1]
+  all_players.sort_by { |player| player[:shoe] } [-1] [:rebounds]
 end
 
 
