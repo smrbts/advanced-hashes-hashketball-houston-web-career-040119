@@ -67,7 +67,7 @@ def player_numbers(team_name)
 end
 
 def player_stats(player_name)
-  find_player(player_name).delete_if { |key, values|
+  find_player(player_name).delete_if { |key, values| key == 
 end
 
 def big_shoe_rebounds
