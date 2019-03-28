@@ -43,7 +43,7 @@ def find_player(name)
 end
 
 def find_team(name)
-  all_teams.find { |team| team[:team_name] == team}
+  all_teams.find { |team| team[:team_name] == name}
 end
 
 def num_points_scored(player_name)
