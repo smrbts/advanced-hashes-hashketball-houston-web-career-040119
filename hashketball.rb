@@ -1,6 +1,7 @@
 require "pry"
 
 def good_practices
+  game.hash
 
 
 
