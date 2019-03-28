@@ -7,7 +7,7 @@ def game_hash
       colors:["Black", "White"],
       players:
       [
-        {Alan}
+        {player_name}
       ]
     },
     away:
