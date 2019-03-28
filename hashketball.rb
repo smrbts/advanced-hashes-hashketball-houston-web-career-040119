@@ -30,6 +30,9 @@ def game_hash
   }
 end
 def all_players
+  game_hash[:home][:player]
+end
+
 def num_points_scored(player_name)
 
 end
