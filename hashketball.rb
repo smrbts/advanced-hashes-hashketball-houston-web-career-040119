@@ -59,7 +59,7 @@ def team_colors(team_name)
 end
 
 def team_names
-  all_teams.collect { |team| team
+  all_teams.collect { |team| team[:team_name]}
 end
 
 def player_numbers(team_name)
