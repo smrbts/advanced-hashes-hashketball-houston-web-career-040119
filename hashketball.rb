@@ -3,7 +3,7 @@ require "pry"
 def good_practices
   game.hash.each do |location, team_data|
     binding.pry
-    team_data
+    team_data.each do ||
 
 
 
