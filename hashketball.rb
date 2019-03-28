@@ -71,7 +71,7 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  all_players.sort_by
+  all_players.sort_by { players
 end
 
 
