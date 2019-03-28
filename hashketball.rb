@@ -38,7 +38,9 @@ def all_teams
   game_hash.values
 end
 
-def
+def find_player(name)
+  
+end
 
 def num_points_scored(player_name)
 
