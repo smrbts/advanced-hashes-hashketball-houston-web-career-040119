@@ -1,6 +1,6 @@
 require "pry"
 
-def 
+def good_practices
 
 
 
