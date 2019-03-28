@@ -29,7 +29,7 @@ def game_hash
     }
   }
 end
-def
+def all_players
 def num_points_scored(player_name)
 
 end
