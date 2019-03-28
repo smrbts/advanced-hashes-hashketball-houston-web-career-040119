@@ -1,7 +1,7 @@
 require "pry"
 
 def good_practices
-  game.hash.each do
+  game.hash.each do |location
 
 
 
