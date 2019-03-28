@@ -4,6 +4,7 @@ def good_practices
   game.hash.each do |location, team_data|
     binding.pry
     team_data.each do |attribute, data|
+      binding.pry
 
 
 
